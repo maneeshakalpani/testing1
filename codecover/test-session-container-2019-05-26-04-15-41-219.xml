@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSessionContainer xmlns="http://www.codecover.org/xml/testsession-container" Date="1558824341198" TestSessionContainerId="fd45129b-c88f-4428-8142-cee50e486625" version="1.0">
+<SrcFileList>
+<SrcFile Content="package simple;&#13;&#10;&#13;&#10;public class myclass {&#13;&#10;&#13;&#10;&#9;public static void main(String[] args) {&#13;&#10;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;int x=5+4;&#13;&#10;&#9;&#9;if(x==5)&#13;&#10;&#9;&#9;{&#13;&#10;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;System.out.println(&quot;success&quot;);&#13;&#10;&#9;&#9;}&#13;&#10;&#9;&#9;else&#13;&#10;&#9;&#9;{&#13;&#10;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;System.out.println(&quot;wrong&quot;);&#13;&#10;&#9;&#9;}&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;&#13;&#10;&#13;&#10;&#9;}&#13;&#10;&#13;&#10;}&#13;&#10;" Filename="myclass.java" Intrnl_Id="1"/>
+</SrcFileList>
+<CritList>
+<CritListEntry Name="org.codecover.model.utils.criteria.LoopCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.QMOCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.ConditionCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.BranchCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.SynchronizedStatementCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.StatementCoverage" PluginName="org.codecover"/>
+</CritList>
+<BoolOpList/>
+<HierarchyLvlTypeList>
+<HierarchyLvlType EnglishName="package" IntrnlName="package" Intrnl_Id="2"/>
+<HierarchyLvlType EnglishName="method" IntrnlName="method" Intrnl_Id="3"/>
+<HierarchyLvlType EnglishName="class" IntrnlName="class" Intrnl_Id="4"/>
+<HierarchyLvlType EnglishName="default package" IntrnlName="default package" Intrnl_Id="5"/>
+</HierarchyLvlTypeList>
+<MASTRoot>
+<HierarchyLvl HierarchyLvlId="9" HierarchyLvlTypeId="5" Intrnl_Id="6" Name="default package">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="8" HierarchyLvlTypeId="2" Intrnl_Id="7" Name="simple">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="7" HierarchyLvlTypeId="4" Intrnl_Id="8" Name="myclass">
+<Header>
+<Loc EndOffset="39" SrcFileId="1" StartOffset="19"/>
+</Header>
+<LocList>
+<Loc EndOffset="253" SrcFileId="1" StartOffset="19"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="6" HierarchyLvlTypeId="3" Intrnl_Id="9" Name="main">
+<Header>
+<Loc EndOffset="84" SrcFileId="1" StartOffset="46"/>
+</Header>
+<LocList>
+<Loc EndOffset="248" SrcFileId="1" StartOffset="46"/>
+</LocList>
+<StmntSeq Intrnl_Id="10">
+<LocList>
+<Loc EndOffset="107" SrcFileId="1" StartOffset="97"/>
+<Loc EndOffset="230" SrcFileId="1" StartOffset="111"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="simple.myclass.java" Intrnl_Id="11">
+<LocList>
+<Loc EndOffset="107" SrcFileId="1" StartOffset="97"/>
+</LocList>
+</BasicStmnt>
+<CondStmnt CovItemId="S2" CovItemPrefix="simple.myclass.java" Intrnl_Id="12">
+<Branch CovItemId="B1" CovItemPrefix="simple.myclass.java" Implct="false" Intrnl_Id="13">
+<Cond/>
+<LocList>
+<Loc EndOffset="174" SrcFileId="1" StartOffset="123"/>
+</LocList>
+<StmntSeq Intrnl_Id="14">
+<LocList>
+<Loc EndOffset="169" SrcFileId="1" StartOffset="139"/>
+</LocList>
+<BasicStmnt CovItemId="S3" CovItemPrefix="simple.myclass.java" Intrnl_Id="15">
+<LocList>
+<Loc EndOffset="169" SrcFileId="1" StartOffset="139"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B2" CovItemPrefix="simple.myclass.java" Implct="false" Intrnl_Id="16">
+<Cond>
+<Loc EndOffset="182" SrcFileId="1" StartOffset="178"/>
+</Cond>
+<LocList>
+<Loc EndOffset="230" SrcFileId="1" StartOffset="186"/>
+</LocList>
+<StmntSeq Intrnl_Id="17">
+<LocList>
+<Loc EndOffset="225" SrcFileId="1" StartOffset="197"/>
+</LocList>
+<BasicStmnt CovItemId="S4" CovItemPrefix="simple.myclass.java" Intrnl_Id="18">
+<LocList>
+<Loc EndOffset="225" SrcFileId="1" StartOffset="197"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="113" SrcFileId="1" StartOffset="111"/>
+<LocList>
+<Loc EndOffset="230" SrcFileId="1" StartOffset="111"/>
+</LocList>
+<RootTerm CovItemId="C1" CovItemPrefix="simple.myclass.java" Intrnl_Id="19">
+<BasicBoolTerm Intrnl_Id="20">
+<LocList>
+<Loc EndOffset="118" SrcFileId="1" StartOffset="114"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</MASTRoot>
+<TestSession Comment="" Date="1558824595220" Name="May 26, 2019 4:19:55 AM">
+<TestCase Comment="This is a test case containing all coverage results cause no startTestCase methods where captured." Date="1558824593965" Name="UNNAMED TESTCASE">
+<CovList>
+<CovPrefix CovItemPrefix="simple.myclass.java">
+<Cov CovItemId="B2" Value="1"/>
+<Cov CovItemId="S1" Value="1"/>
+<Cov CovItemId="S2" Value="1"/>
+<Cov CovItemId="S4" Value="1"/>
+</CovPrefix>
+</CovList>
+<AssgnmntList>
+<AssgnmntPrefix RootTermCovItemPrefix="simple.myclass.java">
+<AssgnmntListEntry Length="1" RootTermCovItemId="C1">
+<MapEntry BoolAssgnmnt="0" Value="1"/>
+</AssgnmntListEntry>
+</AssgnmntPrefix>
+</AssgnmntList>
+<ObjMetaDataList/>
+<MetaDataList/>
+</TestCase>
+<MetaDataList/>
+</TestSession>
+</TestSessionContainer>
